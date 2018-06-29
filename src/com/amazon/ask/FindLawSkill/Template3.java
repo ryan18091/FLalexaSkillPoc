@@ -23,6 +23,8 @@ public class Template3 {
                 .build();
     }
 
+
+
     /**
      * Helper method to create the image object for display interfaces
      * @param imageUrl the url of the image

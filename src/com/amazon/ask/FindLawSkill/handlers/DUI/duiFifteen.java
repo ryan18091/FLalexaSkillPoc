@@ -1,8 +1,11 @@
 package com.amazon.ask.FindLawSkill.handlers.DUI;
 
+import com.amazon.ask.FindLawSkill.Template1;
 import com.amazon.ask.dispatcher.request.handler.HandlerInput;
 import com.amazon.ask.dispatcher.request.handler.RequestHandler;
 import com.amazon.ask.model.Response;
+import com.amazon.ask.model.interfaces.display.Image;
+import com.amazon.ask.model.interfaces.display.Template;
 
 import java.util.Optional;
 
@@ -28,9 +31,34 @@ public class duiFifteen implements RequestHandler{
                 " if chemical tests reveal that the driver's BAC exceeds a certain elevated level set by law - usually" +
                 " around .16 percent. Not every state has this law, but at the minimum states generally impose a " +
                 "harsher punishment for a high BAC.";
-        return input.getResponseBuilder()
-                .withSpeech(speechText)
-                .withReprompt(secondaryText)
-                .build();
+
+        String imageUrl = "https://s3.amazonaws.com/findlawpocvideo/drinkdrive-1170x631.png";
+
+
+        Template1 template1 = new Template1();
+
+        Image image = template1.getImage(imageUrl);
+
+        Template template = template1.getBodyTemplate1(title, primaryText, secondaryText,
+                image);
+
+        if (null != input.getRequestEnvelope().getContext().getDisplay()) {
+
+            return input.getResponseBuilder()
+                    .addVideoAppLaunchDirective("https://s3.amazonaws.com/findlawpocvideo/PerSe.mp4",
+                            "Per Se DUI",
+                            " Atlanta, Georgia - Attorney Benjamin Von Schuch")
+                    .addRenderTemplateDirective(template)
+                    .withReprompt(primaryText)
+                    .build();
+        } else {
+
+            // Headless device
+            return input.getResponseBuilder()
+                    .withSpeech(speechText)
+                    .withReprompt(primaryText)
+                    .build();
+        }
+
     }
 }

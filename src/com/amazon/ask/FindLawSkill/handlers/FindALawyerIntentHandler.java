@@ -108,7 +108,8 @@ public class FindALawyerIntentHandler implements RequestHandler {
                     " followed by your zipcode.";
 
             String title = "Welcome to Find Law";
-            String primaryText = "";
+            String primaryText = "I can sure help you with that. To find the legal help near you, I will need the zipcode" +
+                    " where you want to receive legal help. Start by \"saying  my zipcode is\" followed by your zipcode.";
             String secondaryText = "";
             String imageUrl = "https://www.findlawimages.com/public/thumbnails_62x62/findlaw_62x62.png";
 
@@ -123,7 +124,7 @@ public class FindALawyerIntentHandler implements RequestHandler {
             if(null!=input.getRequestEnvelope().getContext().getDisplay()) {
                 return input.getResponseBuilder()
                         .withSpeech(speechText)
-                        .withSimpleCard(title, speechText)
+                        .withSimpleCard(title, primaryText)
                         .addRenderTemplateDirective(template)
                         .withReprompt(speechText)
                         .build();

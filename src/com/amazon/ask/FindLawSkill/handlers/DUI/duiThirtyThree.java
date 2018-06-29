@@ -19,13 +19,25 @@ public class duiThirtyThree implements RequestHandler{
     public Optional<Response> handle(HandlerInput input) {
 
         String title = "DUI information";
-        String primaryText = "";
+        String primaryText = "Driving while ability impaired";
         String secondaryText = "Ask another question, or ask for legal help";
 
-        String speechText = "DWAI - Driving while ability impaired";
-        return input.getResponseBuilder()
-                .withSpeech(speechText)
-                .withReprompt(secondaryText)
-                .build();
+        String speechText = "<say-as interpret-as=\"spell-out\">DWAI</say-as> - Driving while ability impaired";
+
+        // Device supports display interface
+        if(null!=input.getRequestEnvelope().getContext().getDisplay()) {
+            return input.getResponseBuilder()
+                    .withSpeech(speechText)
+                    .withSimpleCard(title, primaryText)
+                    .withReprompt(secondaryText)
+                    .build();
+        } else {
+
+            // Headless device
+            return input.getResponseBuilder()
+                    .withSpeech(speechText)
+                    .withReprompt(secondaryText)
+                    .build();
+        }
     }
 }

@@ -1,7 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21937c3a-439a-4d9f-9e78-9e1cf22a4fab" name="Default" comment="" />
+    <list default="true" id="21937c3a-439a-4d9f-9e78-9e1cf22a4fab" name="Default" comment="update">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/Template1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/Images/diverse-mixed-age-group.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazon_alexa_ask_sdk_core_2_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazon_alexa_ask_sdk_model_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_dynamodb_1_11_301.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_kms_1_11_301.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_s3_1_11_301.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/Template3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/Template3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopOneIntentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopOneIntentHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopTwelveIntentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopTwelveIntentHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEleven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEleven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFifteen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFifteen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFourteen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFourteen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinetySix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinetySix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirteen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirteen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyFive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtySeven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtySeven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtySix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtySix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiTwelve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiTwelve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/FindALawyerIntentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/FindALawyerIntentHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/LaunchRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/LaunchRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/Template3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/Template3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopOneIntentHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopOneIntentHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiEight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiEight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiEleven.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiEleven.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiFifteen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiFifteen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiFive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiFive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiFour.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiFour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiNine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiNine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinetySix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinetySix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeven.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeven.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiSix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiSix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyFive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyFive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyFour.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyFour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtySeven.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtySeven.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtySix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtySix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyThree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiThree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiTwelve.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiTwelve.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/DUI/duiTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/LaunchRequestHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/ask/FindLawSkill/handlers/LaunchRequestHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloworld-1.0-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/helloworld-1.0-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloworld-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/helloworld-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,20 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AlexaSkillStreamHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/AlexaSkillStreamHandler.java">
+      <file leaf-file-name="duiTwelve.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiTwelve.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="156" column="43" selection-start-line="156" selection-start-column="43" selection-end-line="156" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="duiSixty.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixty.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" column="113" selection-start-line="25" selection-start-column="113" selection-end-line="25" selection-end-column="113" />
+            <state relative-caret-position="773">
+              <caret line="52" column="59" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -33,84 +91,102 @@
       <file leaf-file-name="duiThirteen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirteen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="-151">
+              <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="duiFourteen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFourteen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="786">
-              <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+            <state relative-caret-position="773">
+              <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="duiOne.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="duiFifteen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFifteen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="duiEleven.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEleven.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="56" column="48" selection-start-line="56" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="duiThirtyTwo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyTwo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="duiThirtyThree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyThree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="29" column="18" selection-start-line="26" selection-end-line="40" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindALawyerIntentHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/FindALawyerIntentHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="802">
+              <caret line="127" column="61" selection-start-line="127" selection-start-column="61" selection-end-line="127" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="duiNinetyTwo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinetyTwo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-358" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="duiOne.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="27" column="95" selection-start-line="27" selection-start-column="95" selection-end-line="27" selection-end-column="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FallBackIntentHandler.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/FallBackIntentHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="duiSeventyFive.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventyFive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="534">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNine.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeven.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiTen.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFiftyFive.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFiftySix.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFiftySeven.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFiftyEight.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFiftyNine.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixty.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixtyOne.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixtyTwo.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixtyThree.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixtyFour.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixtyFive.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixtySix.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixtySeven.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixtyEight.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixtyNine.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventy.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventyOne.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventyTwo.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventyThree.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventyFour.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventyFive.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duSeventySix.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventySeven.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventyEight.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventyNine.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEighty.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEightOne.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEightyTwo.java" />
         <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEightyThree.java" />
         <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEightyFour.java" />
         <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEightyFive.java" />
@@ -125,12 +201,43 @@
         <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinetyThree.java" />
         <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinetyFour.java" />
         <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinetyFive.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinetySix.java" />
         <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/AlexaSkillStreamHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirteen.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiOne.java" />
         <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/FallBackIntentHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinetySix.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyNine.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyTwo.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyFour.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyFive.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtySix.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtySeven.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyThree.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/BodyTemplate1Builder.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/BodyTemplate1Builder.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/Template3.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/Template2.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/BodyTemplate2Builder.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/BodyTemplate2Builder.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/TextUtils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/LaunchRequestHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopOneIntentHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiTwo.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThree.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFour.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSix.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeven.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEight.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNine.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFive.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopTwelveIntentHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/Template1.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiOne.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/FindALawyerIntentHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEleven.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiTwelve.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirteen.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFourteen.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFifteen.java" />
       </list>
     </option>
   </component>
@@ -144,11 +251,12 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="77" />
-    <option name="y" value="-17" />
-    <option name="width" value="1725" />
+    <option name="x" value="47" />
+    <option name="y" value="4" />
+    <option name="width" value="1734" />
     <option name="height" value="995" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -187,6 +295,15 @@
               <item name="handlers" type="462c0819:PsiDirectoryNode" />
               <item name="DUI" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TRFindLaw-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TRFindLaw-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FindLawSkill" type="462c0819:PsiDirectoryNode" />
+              <item name="handlers" type="462c0819:PsiDirectoryNode" />
+              <item name="DUI" type="462c0819:PsiDirectoryNode" />
+              <item name="BUI" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -199,13 +316,19 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/mingw64/bin/git.exe" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\UC243946\Desktop\TRFindLaw-master\src\resources\Images" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.amazon.ask.FindLawSkill" />
       <recent name="com.amazon.ask.FindLawSkill.handlers.DUI" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -278,12 +401,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529509904456</updated>
-      <workItem from="1529509906146" duration="28206000" />
+      <workItem from="1529509906146" duration="62958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28206000" />
+    <option name="totallyTimeSpent" value="62958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -297,20 +420,21 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26302084" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.6044601" />
       <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -324,361 +448,431 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinetySix.java</url>
+          <line>31</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiTwentySix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiTwentyTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiTwentyThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFiftyFive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFiftySix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFiftySeven.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFiftyEight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFiftyNine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixtyOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixtyTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixtyThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixtyFour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixtyFive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixtySix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixtySeven.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixtyEight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixtyNine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventyOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventyTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventyThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventyFour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventySix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventySeven.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventyEight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" lean-forward="true" selection-start-column="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventyNine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEighty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEightOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEightyTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEightyThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEightyFour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEightyFive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEightySix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEightySeven.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEightyEight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEightyNine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinety.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinetyOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinetyTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinetyThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinetyFour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinetySix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="691">
+          <caret line="54" column="25" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="57" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinetyFive.java">
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyNine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        <state relative-caret-position="294">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeventyFive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/AlexaSkillStreamHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="156" column="43" selection-start-line="156" selection-start-column="43" selection-end-line="156" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSixty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="113" selection-start-line="25" selection-start-column="113" selection-end-line="25" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirteen.java">
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyFour.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyFive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtySix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtySeven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazon/alexa/ask-sdk-model/1.3.1/ask-sdk-model-1.3.1.jar!/com/amazon/ask/model/interfaces/display/BodyTemplate1.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-434">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/BodyTemplate1Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazon/alexa/ask-sdk-model/1.3.1/ask-sdk-model-1.3.1-sources.jar!/com/amazon/ask/model/interfaces/display/BodyTemplate1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2079">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/Template2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="69" column="45" lean-forward="true" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazon/alexa/ask-sdk-model/1.0.0/ask-sdk-model-1.0.0.jar!/com/amazon/ask/model/interfaces/display/RichText.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazon/alexa/ask-sdk-model/1.0.0/ask-sdk-model-1.0.0-sources.jar!/com/amazon/ask/model/interfaces/display/PlainText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazon/alexa/ask-sdk-model/1.0.0/ask-sdk-model-1.0.0-sources.jar!/com/amazon/ask/model/interfaces/display/RichText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/BodyTemplate2Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/TextUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
+            <element signature="e#1584#1585#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#1692#1693#0" expanded="true" />
+            <element signature="e#1747#1748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/AlexaSkillStreamHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="786">
+        <state relative-caret-position="1470">
           <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/Template3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/LaunchRequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="43" column="38" selection-start-line="43" selection-end-line="44" />
+          <folding>
+            <element signature="e#0#2722#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="50" column="43" lean-forward="true" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiSeven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopEightIntentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopElevenIntentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopFiveIntentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopNineIntentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopSevenIntentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopSixIntentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopTenIntentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopTwoIntentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopThreeIntentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopFourIntentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopTwelveIntentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/DUItrafficStops/DUItrafficStopOneIntentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/Lawyer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2773">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/Template1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiNinetyTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-358" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirtyThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="29" column="18" selection-start-line="26" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/FindALawyerIntentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="127" column="61" selection-start-line="127" selection-start-column="61" selection-end-line="127" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiEleven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="56" column="48" selection-start-line="56" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiTwelve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="52" column="59" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiThirteen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFourteen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiFifteen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/DUI/duiOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="95" selection-start-line="27" selection-start-column="95" selection-end-line="27" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amazon/ask/FindLawSkill/handlers/FallBackIntentHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="534">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -734,7 +928,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>helloworld</last-edited>
+          <last-edited>FLskillPOC</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

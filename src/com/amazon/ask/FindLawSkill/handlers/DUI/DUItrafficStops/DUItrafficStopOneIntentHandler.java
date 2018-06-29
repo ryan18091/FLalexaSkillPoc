@@ -1,5 +1,6 @@
 package com.amazon.ask.FindLawSkill.handlers.DUI.DUItrafficStops;
 
+import com.amazon.ask.FindLawSkill.Template1;
 import com.amazon.ask.FindLawSkill.Template3;
 import com.amazon.ask.dispatcher.request.handler.HandlerInput;
 import com.amazon.ask.dispatcher.request.handler.RequestHandler;
@@ -10,6 +11,7 @@ import com.amazon.ask.model.interfaces.display.Template;
 import java.util.Optional;
 
 import static com.amazon.ask.request.Predicates.intentName;
+
 
 public class DUItrafficStopOneIntentHandler  implements RequestHandler{
 
@@ -35,18 +37,30 @@ public class DUItrafficStopOneIntentHandler  implements RequestHandler{
                 "For those under the legal drinking age of 21, in almost all states you will be considered to be driving " +
                 "under the influence if you have a blood alcohol content great than .01% or .02%, depending on the state you are in.";
 
-        String imageUrl = "https://www.findlawimages.com/latl/findlaw.png";
+        String imageUrl = "https://s3.amazonaws.com/findlawpocvideo/drinkdrive-1170x631.png" ;
 
-        Template3 template3 = new Template3();
+        Template1 template1 = new Template1();
 
-        Image image = template3.getImage(imageUrl);
+        Image image = template1.getImage(imageUrl);
 
-        Template template = template3.getBodyTemplate3(title, speechText, secondaryText, image);
+        Template template = template1.getBodyTemplate1(title,primaryText,secondaryText,
+                image);
 
-        return input.getResponseBuilder()
-//                .withSimpleCard("DUI", speechText)
-                .withSpeech(speechText)
-                .withReprompt(secondaryText)
-                .build();
-    }
+        // Device supports display interface
+        if(null!=input.getRequestEnvelope().getContext().getDisplay()) {
+
+            return input.getResponseBuilder()
+                    .withSpeech(speechText)
+                    .addRenderTemplateDirective(template)
+                    .withReprompt(primaryText)
+                    .build();
+        } else {
+
+            // Headless device
+            return input.getResponseBuilder()
+                    .withSpeech(speechText)
+                    .withReprompt(primaryText)
+                    .build();
+        }
+       }
 }

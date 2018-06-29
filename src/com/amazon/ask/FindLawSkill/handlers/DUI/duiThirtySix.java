@@ -19,13 +19,24 @@ public class duiThirtySix implements RequestHandler{
     public Optional<Response> handle(HandlerInput input) {
 
         String title = "DUI information";
-        String primaryText = "";
+        String primaryText = "Operating a vehicle under the influence";
         String secondaryText = "Ask another question, or ask for legal help";
 
-        String speechText = "OVI - Operating a vehicle under the influence";
-        return input.getResponseBuilder()
-                .withSpeech(speechText)
-                .withReprompt(secondaryText)
-                .build();
+        String speechText = "<say-as interpret-as=\"spell-out\">OVI</say-as> - Operating a vehicle under the influence";
+
+        if(null!=input.getRequestEnvelope().getContext().getDisplay()) {
+            return input.getResponseBuilder()
+                    .withSpeech(speechText)
+                    .withSimpleCard(title, primaryText)
+                    .withReprompt(secondaryText)
+                    .build();
+        } else {
+
+            // Headless device
+            return input.getResponseBuilder()
+                    .withSpeech(speechText)
+                    .withReprompt(secondaryText)
+                    .build();
+        }
     }
 }

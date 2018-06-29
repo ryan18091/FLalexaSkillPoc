@@ -1,8 +1,11 @@
 package com.amazon.ask.FindLawSkill.handlers.DUI;
 
+import com.amazon.ask.FindLawSkill.Template1;
 import com.amazon.ask.dispatcher.request.handler.HandlerInput;
 import com.amazon.ask.dispatcher.request.handler.RequestHandler;
 import com.amazon.ask.model.Response;
+import com.amazon.ask.model.interfaces.display.Image;
+import com.amazon.ask.model.interfaces.display.Template;
 
 import java.util.Optional;
 
@@ -18,7 +21,7 @@ public class duiTwelve implements RequestHandler{
     @Override
     public Optional<Response> handle(HandlerInput input) {
 
-        String title = "DUI information";
+        String title = "Misdemeanor DUI vs. Felony DUI";
         String primaryText = "";
         String secondaryText = "Ask another question, or ask for legal help";
 
@@ -30,9 +33,34 @@ public class duiTwelve implements RequestHandler{
                 " one year in prison (but it can be much more depending on the facts of the case and the state), and" +
                 " the collateral consequences of having a felony on your record such as losing your voting rights, not" +
                 " being able to serve on a jury, and possibly losing your right to legally own a gun.";
-        return input.getResponseBuilder()
-                .withSpeech(speechText)
-                .withReprompt(secondaryText)
-                .build();
+
+        String imageUrl = "https://s3.amazonaws.com/findlawpocvideo/drinkdrive-1170x631.png" ;
+
+
+        Template1 template1 = new Template1();
+
+        Image image = template1.getImage(imageUrl);
+
+        Template template = template1.getBodyTemplate1("Misdemeanor DUI vs. Felony DUI","The Kavinoky Law Firm",secondaryText,
+                image);
+
+        if(null!=input.getRequestEnvelope().getContext().getDisplay()) {
+
+            return input.getResponseBuilder()
+                    .addVideoAppLaunchDirective("https://s3.amazonaws.com/findlawpocvideo/MisdemeanorDUIvsFelonyDUI.mp4",
+                            title,
+                            "The Kavinoky Law Firm")
+//                    .addRenderTemplateDirective(template)
+                    .withReprompt(secondaryText)
+                    .build();
+        } else {
+
+            // Headless device
+            return input.getResponseBuilder()
+                    .withSimpleCard(title,speechText)
+                    .withSpeech(speechText)
+                    .withReprompt(primaryText)
+                    .build();
+        }
     }
 }

@@ -19,7 +19,7 @@ public class duiNinetySix implements RequestHandler{
     public Optional<Response> handle(HandlerInput input) {
 
         String title = "DUI information";
-        String primaryText = "";
+        String primaryText = "Mandatory Alcohol Education";
         String secondaryText = "Ask another question, or ask for legal help";
 
         String speechText = "Mandatory alcohol education, assessment and treatment laws require attendance at" +
@@ -36,9 +36,25 @@ public class duiNinetySix implements RequestHandler{
                 "sometimes may have their driving privileges restored. Conversely, offenders who fail to comply" +
                 " with the terms of their program are not eligible for license reinstatement and may be returned" +
                 " to the courts for further action.";
-        return input.getResponseBuilder()
-                .withSpeech(speechText)
-                .withReprompt(secondaryText)
-                .build();
+
+
+        // Device supports display interface
+        if(null!=input.getRequestEnvelope().getContext().getDisplay()) {
+            return input.getResponseBuilder()
+                    .withSpeech(speechText)
+                    .withSimpleCard("DUI", primaryText)
+//                    .addVideoAppLaunchDirective(videoURL,videoTitle,videoSubTitle)
+//                    .withReprompt(secondaryText)
+                    .build();
+        } else {
+            String imageUrl = "https://www.findlawimages.com/latl/findlaw.png";
+
+            // Headless device
+            return input.getResponseBuilder()
+                    .withSpeech(speechText)
+                    .withSimpleCard(title, secondaryText)
+                    .withReprompt(secondaryText)
+                    .build();
+        }
     }
 }

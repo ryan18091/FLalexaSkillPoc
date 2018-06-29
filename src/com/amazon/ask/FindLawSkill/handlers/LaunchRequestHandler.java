@@ -13,6 +13,7 @@
 
 package com.amazon.ask.FindLawSkill.handlers;
 
+import com.amazon.ask.FindLawSkill.Template1;
 import com.amazon.ask.FindLawSkill.Template3;
 import com.amazon.ask.dispatcher.request.handler.HandlerInput;
 import com.amazon.ask.dispatcher.request.handler.RequestHandler;
@@ -35,25 +36,36 @@ public class LaunchRequestHandler implements RequestHandler {
     @Override
     public Optional<Response> handle(HandlerInput input) {
 
-        String title = "";
-        String primaryText = "";
-        String secondaryText = "provide by FindLaw.com";
+        String title = "FindLaw POC";
+        String primaryText = "Ask a question or say \"get legal help\"";
+        String secondaryText = "";
         String speechText = "Welcome to Find Law, I can help you with your legal questions or I can help you find legal " +
                 "help near you. <break time=\".5s\"/> Ask a question or say get legal help.";
-        String imageUrl = "https://www.findlawimages.com/latl/findlaw.png";
+        String imageUrl = "https://s3.amazonaws.com/findlawpocvideo/diverse-mixed-age-group+(1).png" ;
 
-        Template3 template3 = new Template3();
+        Template1 template1 = new Template1();
 
-        Image image = template3.getImage(imageUrl);
+        Image image = template1.getImage(imageUrl);
 
-        Template template = template3.getBodyTemplate3(title, primaryText, secondaryText, image);
+        Template template = template1.getBodyTemplate1(title,primaryText,secondaryText,
+                image);
 
+        // Device supports display interface
+        if(null!=input.getRequestEnvelope().getContext().getDisplay()) {
 
-        return input.getResponseBuilder()
-                .withSpeech(speechText)
-//                .addRenderTemplateDirective(template)
-                .withReprompt(speechText)
-                .build();
+            return input.getResponseBuilder()
+                    .withSpeech(speechText)
+                    .addRenderTemplateDirective(template)
+                    .withReprompt(primaryText)
+                    .build();
+        } else {
+
+            // Headless device
+            return input.getResponseBuilder()
+                    .withSpeech(speechText)
+                    .withReprompt(primaryText)
+                    .build();
+        }
     }
 
 }

@@ -66,12 +66,8 @@ public class DUItrafficStopTwelveIntentHandler implements RequestHandler{
                     .build();
         }
 
-//        return input.getResponseBuilder()
-////                .withSimpleCard("DUI", speechText)
-//                .withSpeech(speechText)
-//                .withReprompt(secondaryText)
-//                .addVideoAppLaunchDirective(videoURL,videoTitle,videosubTitle)
-////                .addVideoDirective(videoURL, videoTitle, videosubTitle)
-//                .build();
+
     }
 }
+
+
